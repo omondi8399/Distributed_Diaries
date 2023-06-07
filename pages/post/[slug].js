@@ -54,4 +54,4 @@ return {
     paths: posts.map(({ node: { slug } }) => ({ params: { slug } })),
     fallback: true,
 };
-}
+} 
